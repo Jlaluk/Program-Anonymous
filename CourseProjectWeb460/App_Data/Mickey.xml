@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<dsApplications xmlns="http://tempuri.org/dsApplications.xsd">
+  <tblPrograms>
+    <ProgramID>1</ProgramID>
+    <ApplicationName>AutoSort</ApplicationName>
+    <CompletionDate>2019-01-15T00:00:00-06:00</CompletionDate>
+    <LanguageUsed>C++</LanguageUsed>
+    <Username>Mickey</Username>
+  </tblPrograms>
+  <tblPrograms>
+    <ProgramID>2</ProgramID>
+    <ApplicationName>Search</ApplicationName>
+    <CompletionDate>2018-12-12T00:00:00-06:00</CompletionDate>
+    <LanguageUsed>C</LanguageUsed>
+    <Username>Mickey</Username>
+  </tblPrograms>
+</dsApplications>

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ProgramAnonymous.master.cs" Inherits="ProgramAnonymous" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Program Anonymous</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <table style="padding: 10px; border:1px solid black;">
+            <tr style="background-color: darkgrey; text-align: center;">
+                <td colspan="2">
+
+                    <!-- Header -->
+                    <h1>Program Anonymous</h1>
+
+                    <!-- Label displaying User Message -->
+                    <strong><span style="color:blue;">
+                        <asp:Label ID="lblUserFeedback" runat="server">Welcome to Program Anonymous!</asp:Label>
+                        </span></strong>
+                </td>
+            </tr>
+
+            <tr style="vertical-align: top;">
+                <td>
+                    <!-- Left Content Area -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" Runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+
+                <td>
+                    <!-- Right Content Area -->
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" Runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+
+            </tr>
+            <tr style="background-color: lightgrey; text-align: center;">
+                <td colspan="2">
+                    <!-- Page Footer -->
+                    Copyright Program Anonymous Inc<br />
+                    <strong>User's GUID: 
+                        <asp:Label ID="lblGUID" runat="server"  /></strong>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<dsApplications xmlns="http://tempuri.org/dsApplications.xsd">
+  <tblPrograms>
+    <ProgramID>3</ProgramID>
+    <ApplicationName>BotFinder</ApplicationName>
+    <CompletionDate>2018-11-13T00:00:00-06:00</CompletionDate>
+    <LanguageUsed>Java</LanguageUsed>
+    <Username>Minnie</Username>
+  </tblPrograms>
+</dsApplications>
